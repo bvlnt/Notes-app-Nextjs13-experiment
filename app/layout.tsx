@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main>
+        <main className="px-4 py-4">
           <nav className="flex gap-6 text-4xl px-4 py-2   ">
             <Link href="/">Home</Link>
             <Link href="/notes">Notes</Link>
